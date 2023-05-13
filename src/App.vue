@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MainCrud/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainCrud from './components/MainCrud.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainCrud
   }
 }
 </script>
